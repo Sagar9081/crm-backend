@@ -32,7 +32,7 @@ async function loadApp() {
 
     // Routes
     app.use("/add-ticket", addTicket);
-    app.use("/message", messageRoute);
+    app.use("/register", messageRoute);
 
     // Starting Server
     app.listen(process.env.PORT || 3001, () =>
